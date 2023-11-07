@@ -1,0 +1,72 @@
+.Left{
+    background-color: black;
+    min-width: 15%;
+    max-width:40%;
+    width:25%;
+    height: 100%;
+    color: white;
+    /* padding: 2rem 0.5rem; */
+    overflow-x: NONE;
+    overflow-y:auto;
+
+}
+.Left::-webkit-scrollbar {
+    display: none;
+  }
+.Left::before
+{   content: '';
+    background-color: grey;
+    position: absolute;
+    left:var(--pseudo);
+    width: 4px;
+    height: 100%;
+    cursor: ew-resize;
+   
+} 
+.Page
+{width:100vw;
+height:100vh;
+display: flex;
+}
+.Right
+{
+    height: auto;
+    flex-grow: 100;
+   overflow: hidden;
+    background-color: rgb(225,225,225);
+}
+.navbar
+{
+   background-color: rgb(41, 40, 40) ;
+    padding: 20px 50px 20px 60px;
+    height: 10%;
+    width:100%;
+    font-size: 25px;
+}
+.btn2
+{
+    float: right;
+    position: relative;
+    top: 0vh;
+    width: fit-content;
+    padding: 0.25rem 1rem;
+    background-color:black;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    color:white;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.btn3
+{
+    float: right;
+    position: relative;
+    top:-12px;
+    padding: 15px 40px 15px 40px;
+    background-color:blue;
+    border-radius: 10px;
+    font-size: 20px;
+    color:white;
+    cursor: pointer;
+    margin-right: 5%;
+}

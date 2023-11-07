@@ -1,0 +1,168 @@
+.NewReq{
+  flex-grow: 100;
+}
+
+.reqform{
+}
+.reqHead{
+  margin: 1vh 0;
+  display: flex;
+  width: 100%;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid black;
+}
+.radbtn{
+    margin: 0vw 0 0 0vw;
+    padding: 1vh 0vh;
+    display: block;
+    position: absolute;
+    top: 19vh;
+    width: 8vw;
+    height: fit-content;
+    background-color: whitesmoke;
+    border: 2px solid grey;
+    box-shadow:  5px 5px 2px 2px rgb(0, 0, 0, 0.1);
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: black;
+    cursor: pointer;
+}
+.radbtn input[type="radio"] {
+    display : none;
+}
+
+.radbtn label
+{
+  display: block;
+  margin: 0.5vh 0;
+  width: 100%;
+  height: fit-content;
+  font-size: 1vw;
+}
+.radbtn label:hover {
+  width: 100%;
+  height: fit-content;
+  background-color: aliceblue;
+
+  font-size: 1vw;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.radbtn input[type="radio"]:checked + label {
+  background: yellow;
+}
+
+.dropdownHead{
+  margin: 0 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 5vh;
+  font-size: 1.5vw;
+  color: black;
+  border-radius: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.extra
+{
+}
+.URL{  
+}
+.link{
+  width: 67vw;
+  height: 5vh;
+  padding: 0 1vw;
+  color: #000;
+  background-color: darkgrey;
+  font-size: 1.5vw; 
+  outline: none; 
+}
+.details{
+  display : flex ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Body
+{
+  width: 80%;
+  height: 30vh;
+  padding: 1vw;
+  font-size: 1vw;
+  margin: 15vh 0 0 0;
+  border: 2px solid black;
+  border-radius: 0.2rem;
+  background-color: whitesmoke;
+  /* background-color: rgb(26, 52, 124); */
+
+
+}
+.usertoken{
+  margin: 2vw;
+  width: 80%;
+  height: 5vh;
+  padding: 0.1vw 1vw;
+  font-size: 1vw;
+  border: 2px solid black;
+  border-radius: 0.2rem;
+  background-color: whitesmoke;
+  /* background-color: rgb(26, 52, 124); */
+
+}
+.btn4
+{
+    background-color: black;
+    color: white;
+    font-size: 1.2vw;
+    padding: 0.8vw 1.5vw;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    
+}
+.btnlist
+{
+  display: none;
+}
+.savebtn{
+  margin: 1rem;
+  background-color: black;
+  color: white;
+  font-size: 1.75rem;
+  padding: 0.1rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.delbtn{
+  margin: 1rem;
+  background-color: black;
+  color: white;
+  font-size: 1.75rem;
+  padding: 0.1rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.runbtn{
+  margin: 1rem;
+  background-color: black;
+  color: white;
+  font-size: 1.75rem;
+  padding: 0.1rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
